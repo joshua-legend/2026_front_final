@@ -1,11 +1,9 @@
-import Input from "@/src/atoms/Inputs/Input";
-import Underline from "@/src/atoms/Inputs/Underline";
+import SignIn from "@/src/molecules/SignIn";
 
 export default function Home() {
   return (
     <>
-      <Input />
-      <Underline />
+      <SignIn />
     </>
   );
 }
